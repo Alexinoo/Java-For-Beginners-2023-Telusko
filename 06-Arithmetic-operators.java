@@ -13,6 +13,11 @@ class Arithmetic_operators {
                 %	    Modulus	        Returns the division remainder	                x % y	
                 ++	    Increment	    Increases the value of a variable by 1	        ++x	
                 --	    Decrement	    Decreases the value of a variable by 1	        --x
+
+            -----------------------------------------------------------------------
+
+                ++x	- pre-increment
+                x++	- post-increment
          */
 
          int firstValue = 200;

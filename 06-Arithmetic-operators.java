@@ -24,6 +24,8 @@ class Arithmetic_operators {
          float quotient = (float)firstValue / secondValue;
          int modulo = firstValue % secondValue;
 
+
+         
         
          System.out.println("First Value : "+firstValue );
          System.out.println("Second Value : "+secondValue );
@@ -34,6 +36,13 @@ class Arithmetic_operators {
          System.out.println("Multiplication (*) : "+product);
          System.out.println("Division (/) : "+quotient);
          System.out.println("Modulus (%) : "+modulo);
+
+         firstValue++; //firstValue = firstValue + 1
+         secondValue--; //firstValue = firstValue + 1
+
+         System.out.println("------------------------ ");
+         System.out.println("Increment (++) : "+firstValue);
+         System.out.println("Decrement (--) : "+secondValue);
 
     }
 }

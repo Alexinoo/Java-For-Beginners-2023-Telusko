@@ -42,12 +42,20 @@ class Arithmetic_operators {
          System.out.println("Division (/) : "+quotient);
          System.out.println("Modulus (%) : "+modulo);
 
-         firstValue++; //firstValue = firstValue + 1
-         secondValue--; //firstValue = firstValue + 1
+        //  firstValue++; //firstValue = firstValue + 1
+        //  secondValue--; //firstValue = firstValue + 1
+
+        //  System.out.println("------------------------ ");
+        //  System.out.println("Increment (++) : "+firstValue);
+        //  System.out.println("Decrement (--) : "+secondValue);
+
+
+         int postIncrement = firstValue++; // Fetch then increment
+         int preIncrement = ++secondValue; // Increment then fetch
 
          System.out.println("------------------------ ");
-         System.out.println("Increment (++) : "+firstValue);
-         System.out.println("Decrement (--) : "+secondValue);
+         System.out.println("Post Increment (x++) : "+postIncrement); 
+         System.out.println("Pre Increment (++x) : "+preIncrement); 
 
     }
 }

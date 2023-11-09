@@ -2,7 +2,7 @@
     
     public static void main(String[] args) {
         
-        int day = 1;
+        int day = 8;
         switch (day) {
             case 1:
                 System.out.println("Monday");
@@ -25,6 +25,9 @@
             case 7:
                 System.out.println("Sunday");
                 break;
+
+            default:
+                System.out.println("Invalid day");
         }
     }
 }

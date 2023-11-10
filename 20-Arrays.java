@@ -16,11 +16,13 @@
          * ================
          * We have now declared a variable that holds an array of strings. To insert values to it, you can place the values in a comma-separated list, inside curly braces:
          * String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+         * String cars[] = {"Volvo", "BMW", "Ford", "Mazda"};
          * 
          * 
          * ARRAY OF INTEGERS
          * ================
          * int[] myNum = {10, 20, 30, 40};
+         * OR int myNum[] = {10, 20, 30, 40};
          * 
          * 
          * 
@@ -52,13 +54,15 @@
          * To find out how many elements an array has, use the length property:
          
             String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+           OR  String cars[] = {"Volvo", "BMW", "Ford", "Mazda"};
             System.out.println(cars.length);
             // Outputs 4
          *
          * 
          */
 
-         String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+         // String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+         String cars[] = {"Volvo", "BMW", "Ford", "Mazda"};
 
          System.out.println("////// FOR LOOP //////////////////");
 

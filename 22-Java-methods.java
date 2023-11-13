@@ -76,16 +76,8 @@ class Java_methods {
         else
             return y;
     }
-
-}
-
-
-/**
- * Caller class
- */
- class Caller {
-
     
+    // Driver code
     public static void main(String[] args) {
 
         Java_methods compare = new Java_methods();

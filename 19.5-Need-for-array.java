@@ -8,6 +8,8 @@ class Need_for_array {
          int k = 7;
 
         //  Store several values in 1 collection [1  stores multiple values]
+        // int numbers = {5, 6, 7}; // WONT WORK !!
+        // Add numbers[]
         int numbers[] = {5, 6, 7};
 
 

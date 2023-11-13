@@ -54,6 +54,8 @@ class Array_of_objects {
         
 
         // Loop
+        System.out.println("======= Normal For Loop ===============");
+
         for (int index = 0; index < students.length; index++) {
             
             System.out.println("Roll no : "+students[index].rollNo );
@@ -61,5 +63,16 @@ class Array_of_objects {
             System.out.println("Marks : "+students[index].marks);
             System.out.println("===============================");
         }
+
+        // Enhanced For Loop
+         System.out.println("//////////// Enhanced For Loop //////////////");
+
+         for (Student stud : students) {
+
+            System.out.println("Roll no : "+stud.rollNo );
+            System.out.println("Names : "+stud.name);
+            System.out.println("Marks : "+stud.marks);
+            System.out.println("===============================");
+         }
     }
 }

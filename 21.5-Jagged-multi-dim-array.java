@@ -46,5 +46,41 @@ class Jagged_multi_dim_array {
             }
             System.out.println();
         }
+
+
+        System.out.println("==== JAGGED - 1 ============");
+
+        int pattern[][] = new int[9][];       
+
+        for (int i = 0; i < pattern.length; i++) {
+
+            pattern[i] = new int[i + 1];
+            
+            for (int j = 0; j < pattern[i].length; j++) {
+                System.out.print("*");                
+            }
+            System.out.println();
+        }
+
+
+         System.out.println("==== JAGGED - 2 ============");
+
+         int count = 1;
+
+         for (int i = 0; i < pattern.length; i++) {
+
+            if (i > 4){
+                pattern[i] = new int[ i - count];                
+                count = count + 2;
+                
+            }else{
+                pattern[i] = new int[i + 1];
+            }
+            
+            for (int j = 0; j < pattern[i].length; j++) {
+                System.out.print("*");                
+            }
+            System.out.println();
+        }
     }
 }

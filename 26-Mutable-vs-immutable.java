@@ -58,7 +58,7 @@
         // concat() method appends the string at the end
         s.concat(" Tendulkar");     
         // Prints Sachin because strings are immutable objects
-        System.out.println(s);
+        System.out.println(s); //Sachin
 
 
 
@@ -69,6 +69,6 @@
         // concat() method appends the string at the end
         name = name.concat(" Mwangi");     
         // Explicitly assigned we create a new object "Alex Mwangi" in the string constant pool
-        System.out.println(name);
+        System.out.println(name); //Alex Mwangi
     }
 }

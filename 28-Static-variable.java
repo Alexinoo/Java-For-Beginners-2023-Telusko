@@ -5,8 +5,9 @@ class Mobile {
 
     String brand;
     int price;
-    // String name ; Before
-    String name = "SmartPhone"; //After
+
+    // String name ; Before - Instance variable
+    static String name = "SmartPhone"; //After Class-level-variable
 
     void show(){
         System.out.println( "Brand : "+brand);

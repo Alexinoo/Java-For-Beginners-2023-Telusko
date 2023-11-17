@@ -1,4 +1,4 @@
-/* Inheritance in Java
+/* Inheritance in Java - 'is a'
    ===================
  *
  * Inheritance is an important pillar of OOP(Object-Oriented Programming). 

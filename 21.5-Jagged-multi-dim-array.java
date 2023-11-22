@@ -82,5 +82,38 @@ class Jagged_multi_dim_array {
             }
             System.out.println();
         }
+
+        System.out.println("==== JAGGED - 3 (Mine)============");
+
+        int nums[][] = new int[5][];
+        int counter = 0;
+       
+        long startTime = System.currentTimeMillis();        
+        printArray(nums);
+        long endTime = System.currentTimeMillis();
+
+        System.out.println("Took "+ (endTime - startTime) + "ms");
+        
+    }
+
+    private static void printArray(int[][] array){
+
+        for (int i = 0; i < array.length; i++)
+            array[i] = new int[i + 1];
+ 
+        // Initializing array
+        int count = 0;
+        for (int i = 0; i < array.length; i++)
+            for (int j = 0; j < array[i].length; j++)
+                array[i][j] = count++;        
+ 
+        // Displaying the values of 2D Jagged array
+        System.out.println("Contents of 2D Jagged Array");
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++)
+                System.out.print(array[i][j] + " ");
+            System.out.println();
+        }
+
     }
 }

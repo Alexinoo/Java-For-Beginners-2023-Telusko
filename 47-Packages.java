@@ -92,7 +92,7 @@
      * Then create the MyClass inside the directory with the first statement being the package names.
      */
 
-import my_package.MyClass;
+import first_package.MyClass;
 
  class Packages {  
 

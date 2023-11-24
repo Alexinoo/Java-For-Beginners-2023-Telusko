@@ -1,4 +1,4 @@
-package my_package;
+package first_package;
 
 public class MyClass
 {

@@ -27,8 +27,8 @@ class Geek {
     public static void main(String[] args) {
 
         Animal myAnimal = new Animal();
-        Dog myDog = new Dog();
-        Pig myPig = new Pig();
+        Animal myDog = new Dog();
+        Animal myPig = new Pig();
 
         myAnimal.animalSound();
         myDog.animalSound();
